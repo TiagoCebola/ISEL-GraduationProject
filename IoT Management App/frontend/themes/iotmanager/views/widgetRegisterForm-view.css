@@ -1,0 +1,32 @@
+.widgetRegister-view {
+  display: block;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.widgetRegister-view .button-layout {
+  margin-bottom: var(--lumo-space-l);
+  margin-top: var(--lumo-space-m);
+}
+
+.wrapperImage {
+    margin: 0;
+}
+
+.wrapperImage {
+    margin-bottom: 1rem;
+    width: calc(99.9% - 0rem) !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapperImage img {
+    max-width: 200px;
+    margin: 1rem 0;
+    border-radius: 5%;
+}
+
+.imageLabel {
+    margin-top: 1rem;
+    color: var(--lumo-secondary-text-color);
+    font-size: var(--lumo-font-size-s);
+}

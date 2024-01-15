@@ -1,0 +1,90 @@
+.welcome {
+ background-color: rgb(22, 118, 243);
+	border-radius: 10px;
+	width: 100%;
+}
+
+.wrapper h2,
+.wrapper p {
+    color: white;
+    margin: 0;
+    text-align: initial;
+}
+
+.daysOfWeek {
+    display: flex;
+    width: 80px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.daytable {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+    height: 3rem;
+    padding: 1rem;
+    margin: 0.5rem;
+    margin-left: 0rem;
+
+    background-color: #1676F3;
+    border-radius: 5px;
+}
+
+.weekOfTheDay,
+.numberOfTheDay{
+    color: white;
+}
+
+.weekOfTheDay {
+    justify-content: normal !important;
+  font-weight: bold;
+}
+
+.dateContainer p {
+    margin: 0;
+    text-align: initial;
+    color: black;
+}
+
+.dateContainer {
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.imgWrapper {
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgWrapper img {
+    max-width: 70%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+@media only screen and (max-width: 515px) {
+
+    .wrapper {
+    	padding: 0.85rem;
+    }
+
+   .wrapper p {
+    	font-size: 0.8rem;
+    }
+
+    .daytable div,
+    .daytable span {
+    	font-size: x-small;
+    }
+
+    .wrapper h2,
+    .dateContainer p {
+    	font-size: 1rem;
+    }
+
+}

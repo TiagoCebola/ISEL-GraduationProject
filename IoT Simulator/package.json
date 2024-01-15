@@ -1,0 +1,27 @@
+{
+  "name": "camsimulator",
+  "version": "1.0.0",
+  "main": "cameraServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon cameraServer.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "express-session": "^1.17.3",
+    "nodemon": "^2.0.18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gustavodev1998/RestServerSimulator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gustavodev1998/RestServerSimulator/issues"
+  },
+  "homepage": "https://github.com/gustavodev1998/RestServerSimulator#readme",
+  "description": ""
+}
