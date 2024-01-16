@@ -19,9 +19,6 @@
   <img alt="System" src=".github/system.png" width="100%">
 </p>
 
-<br>
-<br>
-
 # Technologies
 
 This project was developed with the following technologies:
@@ -39,13 +36,9 @@ This project was developed with the following technologies:
 - Git
 - GitHub
 
-<br>
-
 # Project
 
 The project's main goal was to design a Web interface for IoT network devices through Web Components, aiming at its use by users of technological framework management systems involving cyber-physical equipments. The graphical representation was also intended to be inserted as elements that allow users to interact with the devices and manipulate them by changing their attributes. 
-
-<br>
 
 # Running the Application
 
@@ -86,14 +79,10 @@ To run the program you need to insert the following command:
     npm start
 ```
 
-<br>
-
 # Paper
 
 If you wish to read how this project was developed and the process of construction you can go to our docs folder and read
 the pdf that contains the [UX-IOT paper](.github/P008_LEIRT_Report.pdf).
-
-<br>
 
 # Layout
 
@@ -110,8 +99,6 @@ The layout can be observed individually and changed by accessing the following f
 
 - Read the Vaadin documentation [HERE](https://vaadin.com/docs).
 - Read the Lit documentation [HERE](https://lit.dev/docs/).
-
-<br>
 
 # :memo: License
 
