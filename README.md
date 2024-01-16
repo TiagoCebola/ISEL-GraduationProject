@@ -31,6 +31,7 @@ This project was developed with the following technologies:
 - TypeScript
 - CSS
 - HTML
+- Web Components
 - Vaadin
 - Lit
 - Git
